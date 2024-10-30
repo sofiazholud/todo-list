@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+/media/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+
+# Pycharm
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.log
+
+# Static and media files
+staticfiles/
+media/
+
+# Local environment variables
+.env
+.env.*
+
+# Other IDEs
+*.swp
+*.swo
